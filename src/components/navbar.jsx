@@ -22,12 +22,6 @@ const Navbar = ({ user }) => {
             <NavLink to="/movies" className="nav-link">
               Movies
             </NavLink>
-            <a href="/customers" className="nav-link">
-              Customers
-            </a>
-            <a href="/rentals" className="nav-link">
-              Rentals
-            </a>
             {/* displaying the current user in navbar if valid jwt is provided */}
             {user ? (
               <>
